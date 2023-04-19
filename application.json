@@ -1,0 +1,29 @@
+{
+  "pages": [
+    {
+      "id": "Create New Account",
+      "isDefault": true
+    },
+    {
+      "id": "Create new Post",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#E3DEFF",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
