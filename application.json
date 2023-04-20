@@ -11,6 +11,10 @@
     {
       "id": "Account Settings",
       "isDefault": false
+    },
+    {
+      "id": "Create Posts and Recipes",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -21,7 +25,7 @@
     "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
