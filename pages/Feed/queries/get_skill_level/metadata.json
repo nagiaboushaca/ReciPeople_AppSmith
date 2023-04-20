@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_recipe_info",
+    "name": "get_skill_level",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/recipes"
+        "url": "web:4000/b/skill_level"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{feed.selectedItem.post_id}}",
+      "body": "{{List1.selectedItem.skill_level_id}}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -42,7 +42,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -52,14 +52,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "feed.selectedItem.post_id"
+      "List1.selectedItem.skill_level_id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Feed_get_recipe_info",
+  "id": "Feed_get_skill_level",
   "deleted": false,
-  "gitSyncId": "6440a8200a61da1b9897f6c1_64417f9058394a435350da47"
+  "gitSyncId": "6440a8200a61da1b9897f6c1_6441931158394a435350da58"
 }
