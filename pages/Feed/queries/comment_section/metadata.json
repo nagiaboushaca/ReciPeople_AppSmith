@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_skill_level",
+    "name": "comment_section",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/skill_level"
+        "url": "web:4000/j/comments/{{feed.selectedItem.post_id}}"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{List1.selectedItem.skill_level_id}}",
+      "body": "",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -42,24 +42,24 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
-        "key": "body"
+        "key": "datasourceUrl"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "List1.selectedItem.skill_level_id"
+      "feed.selectedItem.post_id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Feed_get_skill_level",
+  "id": "Feed_comment_section",
   "deleted": false,
-  "gitSyncId": "6440a8200a61da1b9897f6c1_6441931158394a435350da58"
+  "gitSyncId": "6440a8200a61da1b9897f6c1_6441b3fe58394a435350da87"
 }

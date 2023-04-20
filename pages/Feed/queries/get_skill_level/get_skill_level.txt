@@ -1,1 +1,0 @@
-{{List1.selectedItem.skill_level_id}}
