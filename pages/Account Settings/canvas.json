@@ -49,7 +49,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 11,
+              "leftColumn": 25,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -62,7 +62,7 @@
               "isDisabled": false,
               "key": "qazwphou10",
               "isDeprecated": false,
-              "rightColumn": 27,
+              "rightColumn": 41,
               "isDefaultClickDisabled": true,
               "widgetId": "z73uvwi240",
               "minWidth": 120,
@@ -102,7 +102,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 11,
+              "leftColumn": 25,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -115,7 +115,7 @@
               "isDisabled": false,
               "key": "qazwphou10",
               "isDeprecated": false,
-              "rightColumn": 27,
+              "rightColumn": 41,
               "isDefaultClickDisabled": true,
               "widgetId": "lbkqwy5ig2",
               "minWidth": 120,
@@ -155,7 +155,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 11,
+              "leftColumn": 25,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -168,7 +168,7 @@
               "isDisabled": false,
               "key": "qazwphou10",
               "isDeprecated": false,
-              "rightColumn": 27,
+              "rightColumn": 41,
               "isDefaultClickDisabled": true,
               "widgetId": "jai3pqdnvw",
               "minWidth": 120,

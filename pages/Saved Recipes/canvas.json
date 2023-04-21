@@ -347,7 +347,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "text": "Serving Sizez: {{currentItem.serving_size}}",
+                              "text": "Serving Size: {{currentItem.serving_size}}",
                               "key": "dngwptmvqz",
                               "isDeprecated": false,
                               "rightColumn": 55,
