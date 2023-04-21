@@ -135,7 +135,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button3",
-              "onClick": "{{showModal('Modal3')}}",
+              "onClick": "{{showModal('delete_account_modal')}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
