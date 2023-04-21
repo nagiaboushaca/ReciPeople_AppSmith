@@ -15,6 +15,10 @@
     {
       "id": "Create Posts and Recipes",
       "isDefault": false
+    },
+    {
+      "id": "Saved Recipes",
+      "isDefault": false
     }
   ],
   "viewMode": false,
