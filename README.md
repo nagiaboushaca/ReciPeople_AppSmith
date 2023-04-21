@@ -11,3 +11,6 @@ This repository contains our AppSmith application for ReciPeople. There are 5 pa
 4. Create Posts and Recipes : Here there is a big form to create a post and recipe. It will appear on the feed 
    after you post!
 5. Saved Recipes: Here you can view the recipes you saved, you just have to enter your username and hit the generate button
+
+link to intro video:
+https://drive.google.com/file/d/1BdQGczTwhREKrDrplgTU8sqqjCe2d2c5/view?usp=sharing
